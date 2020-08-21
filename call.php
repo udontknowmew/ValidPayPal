@@ -140,7 +140,8 @@ class Run
 }
 
 try {
-  $cok  = new Run->start();
+  $cok  = new Run
+  $cok->start();
 } catch (\Exception $e) {
   echo $e->getMessage() . PHP_EOL;
 }
