@@ -1,5 +1,6 @@
 {
     "require": {
-        "php-curl-class/php-curl-class": "@dev"
+        "php-curl-class/php-curl-class": "@dev",
+        "chuyskywalker/rolling-curl": "^3.1"
     }
 }

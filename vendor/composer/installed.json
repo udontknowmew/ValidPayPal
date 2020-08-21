@@ -1,0 +1,132 @@
+[
+    {
+        "name": "chuyskywalker/rolling-curl",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chuyskywalker/rolling-curl.git",
+            "reference": "fc1d28c221962f25e9615bd3991dd82732420c8c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chuyskywalker/rolling-curl/zipball/fc1d28c221962f25e9615bd3991dd82732420c8c",
+            "reference": "fc1d28c221962f25e9615bd3991dd82732420c8c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "lib-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2014-08-30T03:39:25+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "RollingCurl": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Jeff Minard",
+                "homepage": "http://jrm.cc/",
+                "role": "Developer"
+            },
+            {
+                "name": "Josh Fraser",
+                "email": "joshfraz@gmail.com",
+                "homepage": "http://joshfraser.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Rolling-Curl: A non-blocking, non-dos multi-curl library for PHP",
+        "homepage": "https://github.com/chuyskywalker/rolling-curl",
+        "keywords": [
+            "asynchronous",
+            "curl",
+            "http",
+            "multi",
+            "parallel",
+            "requests"
+        ]
+    },
+    {
+        "name": "php-curl-class/php-curl-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-curl-class/php-curl-class.git",
+            "reference": "e5831f35e1f81a0aa94d66f01c65fbc92be6d691"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/e5831f35e1f81a0aa94d66f01c65fbc92be6d691",
+            "reference": "e5831f35e1f81a0aa94d66f01c65fbc92be6d691",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "ext-gd": "*",
+            "phpunit/phpunit": "*",
+            "squizlabs/php_codesniffer": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "*"
+        },
+        "time": "2020-05-23T03:51:01+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Curl\\": "src/Curl/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Zach Borboa"
+            }
+        ],
+        "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+        "homepage": "https://github.com/php-curl-class/php-curl-class",
+        "keywords": [
+            "API-Client",
+            "api",
+            "class",
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http-client",
+            "http-proxy",
+            "json",
+            "php",
+            "php-curl",
+            "php-curl-library",
+            "proxy",
+            "requests",
+            "restful",
+            "web-scraper",
+            "web-service",
+            "xml"
+        ]
+    }
+]
